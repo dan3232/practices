@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(./carlos-macias-gpeSMnt49wU-unsplash.jpg);
+    background-color: #1e1e1e;
+    background-blend-mode:color-dodge;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position:right;
+}
+
+.container {
+    padding: 4em;
+    height:89vh;
+    width: 50%;
+    background-color: rgb(225, 225, 225);
+}
+
+h1 {
+    width:fit-content;
+    position: relative;
+    z-index: 0;
+    font-size: 3em;
+    color: rgb(216, 76, 76);
+    border-bottom: 2px solid #1e1e1e;
+    padding-bottom: 2rem;
+    margin: 0;
+}
+
+
+p {
+    margin: 0;
+    padding-top:2rem;
+    color: #1e1e1e;
+    font-size: 1.3em;
+}

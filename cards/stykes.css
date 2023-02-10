@@ -1,0 +1,69 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:  #212527;
+    color: #9fb2b9;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: grid;
+    width: 100%;
+    margin: 2em auto 0;
+}
+
+.card {
+    background-color: #337590;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    align-items: center;
+    border-radius: 1em;
+    margin-bottom: 2em;
+}
+
+p,
+h3 {
+    margin: 0;
+}
+
+h3 {
+    margin-left: 1em;
+}
+
+span {
+    width: 5em;
+    height: 5em;
+    background: #6bbce4;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.container {
+    width: 90%;
+    padding: 2em;
+    
+}
+
+.card {
+    padding: 1.5em;
+    background-color: #323131;
+    border-radius: 3em;
+}
+
+p.date {
+    margin-bottom: 1em;
+    font-size: 0.75rem;
+    color: #ffffff79;
+}
+
+h3 {
+    margin: 0;
+    text-transform: uppercase;
+    color: #6bbce4;
+    margin-bottom: .3em;
+    font-size: 1.5rem;
+}
